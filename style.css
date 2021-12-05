@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  transition: 300;
+}
+body {
+  color: white;
+  background-image: url("https://images.pexels.com/photos/258149/pexels-photo-258149.jpeg?cs=srgb&dl=pexels-pixabay-258149.jpg&fm=jpg");
+  /* min-width: 100vh; */
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+}
+
+.days-c,
+.hours-c,
+.mins-c,
+.seconds-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.big-text {
+  font-size: 4rem;
+  line-height: 1;
+  margin: 1rem 2rem 0 2rem;
+}
+
+.title {
+  margin-top: 5rem;
+}
+
+.note {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: small;
+  font-style: italic;
+}
